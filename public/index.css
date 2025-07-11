@@ -1,0 +1,203 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202020;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin: 0 auto;
+    gap: 24px; 
+    background-color: #202020;
+    padding: 50px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.duos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin: 0 auto;
+    font-size: 25px;
+    font-family: "Fjalla One", sans-serif;
+    color: #BA8E24;
+    gap: 5px;
+}
+
+.menu-header a{
+    padding-inline: 30px;
+    color: #BA8E24;
+    font-size: 20px;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.logo a{
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #BA8E24;
+    font-size: 40px;
+}
+
+textarea{
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #333333;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 80vh;
+}
+
+.sugestao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cardapio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    margin: 40px 0;
+    width: 100%;
+    max-width: 1100px;
+}
+
+.card {
+    background: #222;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    padding: 24px 32px;
+    min-width: 260px;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.card-title {
+    font-family: "Caprasimo", serif;
+    font-size: 28px;
+    color: #BA8E24;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.card-desc {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+.input-area {
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    padding: 8px 12px;
+    font-size: 18px;
+    background: #222;
+    color: #fff;
+    border: 2px solid #BA8E24;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    resize: vertical;
+}
+
+.btn-enviar {
+    background: #BA8E24;
+    color: #fff;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 32px;
+    margin-top: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-enviar:hover {
+    background: #8a6a1b;
+}
+
+.agradecimento {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.contato {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contato .card {
+    background: #222;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    padding: 24px 32px;
+    min-width: 260px;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.contato .btn-contato {
+    background: #BA8E24;
+    color: #fff;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 32px;
+    margin-top: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.contato .btn-contato:hover {
+    background: #8a6a1b;
+}
+
+.menu-link, .logo-link {
+    color: #BA8E24;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    transition: color 0.2s;
+}
+.menu-link:hover, .logo-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+

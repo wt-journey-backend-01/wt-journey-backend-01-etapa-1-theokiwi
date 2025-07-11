@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Fjalla+One&display=swap"
+      rel="stylesheet" />
+    <title>DevBurger</title>
+  </head>
+  <body>
+    <!-- Cardapio DevBurguer e formulario pra sugerir novos lanches -->
+    <header>
+      <div class="header">
+        <div class="logo">
+          <a href="/" class="logo-link">DevBurger</a>
+        </div>
+        <div class="menu-header">
+          <a href="/" class="menu-link">Lanches</a>
+          <a href="/sugestao" class="menu-link">Sugestão</a>
+          <a href="/contato" class="menu-link">Contato</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="agradecimento">
+        <form action="/contato" method="POST" class="form">
+          <div class="duos">
+            <label for="nome">Seu nome:</label>
+            <textarea id="nome" name="nome" rows="2" class="input-area"></textarea>
+          </div>
+          <div class="duos">
+            <label for="email">Email:</label>
+            <textarea id="email" name="email" rows="2" class="input-area"></textarea>
+          </div>
+          <div class="duos">
+            <label for="assunto">Assunto:</label>
+            <textarea id="assunto" name="assunto" rows="2" class="input-area"></textarea>
+          </div>
+          <div class="duos">
+            <label for="assunto">Mensagem</label>
+            <textarea id="assunto" name="asssunto" rows="4" class="input-area"></textarea>
+          </div>
+          <button type="submit" class="btn-enviar">Enviar</button>
+        </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
